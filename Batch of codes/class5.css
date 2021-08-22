@@ -1,0 +1,30 @@
+/* class selectors */
+.first__style {
+  color: blue;
+  text-align: center;
+  background-color: burlywood;
+  width: 70%;
+}
+/* id selectors */
+#second__style {
+  color: darkcyan;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* tag selectors */
+h4 {
+  font-weight: 700;
+  color: darkgreen;
+}
+/* attribute selectors */
+ul[name="selectors"] {
+  background-color: darkorchid;
+  font-size: 10px;
+  margin-left: 50%;
+}
+
+
+
+/* Inline CSS would be given priority than the internal and external */
+
+
+/* In the same way the id attribute would be given priority than the class attribute  if we use both the attribute in one line*/

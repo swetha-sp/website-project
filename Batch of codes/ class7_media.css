@@ -1,0 +1,49 @@
+.mobile{
+    background-color: darkblue;
+    font-size: 20px;
+}
+
+.tablet{
+    background-color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.laptop{
+    background-color: darkred;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .mobile{
+        background-color: deepskyblue;
+        font-size: 35px;
+    }
+
+    .tablet{
+        background-color: gold;
+        font-size: 35px;
+    }
+     
+    .laptop{
+        background-color: red;
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .mobile{
+        background-color: royalblue;
+        font-size: 50px;
+    }
+
+    .tablet{
+        background-color: salmon;
+        font-size: 50px;
+    }
+
+    .laptop{
+        background-color: rebeccapurple;
+        font-size: 50px;
+    }
+}
